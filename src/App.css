@@ -1,0 +1,42 @@
+.appcontain{
+  width:100%;
+  margin:auto;
+  text-align: center;}
+
+.backcolor >h1{
+  font-size:30px;
+  font-weight:bold;
+  padding-bottom:15px;
+  padding-top:15px;}
+
+.backcolor{background-color:#FFF6E1;}
+
+.namefiltercontain{
+  font-size:18px;
+  padding-top:10px;}
+
+#nameFilter{
+  margin-left:10px;
+  margin-right:10px;}
+
+
+.filterscontain{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding-top:15px;
+  padding-bottom:20px;}
+
+
+.typefiltercontain{
+  width:55%;
+  font-size:18px;}
+
+#typeFilter{
+  margin-left:10px;}
+
+.weaknessesfiltercontain{
+  width:55%;
+  font-size:18px;}
+
+#weaknessFilter{margin-left:10px;}
