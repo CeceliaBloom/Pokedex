@@ -104,8 +104,8 @@ function App() {
               <select id="typeFilter" value={selectedType} onChange={handleTypeChange}>
                 <option value="">All Types</option>
                 {typeOptions.map((type, index) => (
-                <option key={type + index} value={type}>
-                    {type}
+                <option key={type + index} value={type.toLowerCase()}>
+                    {type.toLowerCase()}
                 </option>
                 ))}
               </select>
@@ -120,8 +120,8 @@ function App() {
               <option value="">All Weaknesses</option>
                 {weaknessOptions.map((weakness, index) => {
                   return(
-                    <option key={weakness+index} value={weakness}>
-                      {weakness}
+                    <option key={weakness+index} value={weakness.toLowerCase()}>
+                      {weakness.toLowerCase()}
                     </option>
                     );              
                  })}
